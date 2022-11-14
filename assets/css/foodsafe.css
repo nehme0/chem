@@ -39,68 +39,68 @@ COLORS - from BC Gov dev guide (http://www2.gov.bc.ca/gov/content/about-gov-bc-c
 
 */
 body, html {
-    overflow-x:hidden
-    }
+  overflow-x:hidden
+  }
 
 body.fs {
-    background-color: #fff;
+  background-color: #000;
 }
 
 /* the gov template removes this padding, which is default in bootstrap - adding it back here for column gutters */
 body.fs [class*='col-'] {
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-bottom: 20px;
-    }
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 20px;
+  }
 
 body.fs {
-    font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Lucida Sans, Segoe UI, Calibri, sans-serif;
+  font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Lucida Sans, Segoe UI, Calibri, sans-serif;
 }
 
 /*HEADER*/
 
 #header .container {
-    position: relative;
+  position: relative;
 }
 
 #logo {
-    float: none;
+  float: none;
 }
 
 #header {
-    z-index: 2;
-    width: 100%;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #FCBA19;
-    box-shadow: 0px 3px 3px 1px rgba(51, 51, 51, 0.5);
-    background-color: #003366;
+  z-index: 2;
+  width: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #FCBA19;
+  box-shadow: 0px 3px 3px 1px rgba(51, 51, 51, 0.5);
+  background-color: #003366;
 }
 
 #header h1 {
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 0;
-    padding-left: 20px;
-    color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-left: 20px;
+  color: #000;
 }
 
 #header #logo img {
-    width: auto;
-    height: auto;
-    padding-left: 10px;
+  width: auto;
+  height: auto;
+  padding-left: 10px;
 }
 
 #header h1#siteTitle {
-    margin: 20px 5px 5px 0;
-    color: #fff;
-    font-size: 28px;
-	font-weight: 100 !important;
+  margin: 20px 5px 5px 0;
+  color: #000;
+  font-size: 28px;
+font-weight: 100 !important;
 }
 
 #header h1#siteTitle a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 /*NAV
@@ -108,636 +108,636 @@ custom FOODSAFE menu styles built on top of both bootstrap and the Gov 3 styles 
 */
 
 .navbar-header {
-    position: relative;
+  position: relative;
 }
 
 /*site tagline*/
 .navbar-header p {
-    display: inline-block;        
-    position: absolute;
-    left: 90px;
-    max-width: 100%;
-    top: 10px;
-    color: #00619a;
-    font-size: 12px;
-    font-style: italic;
+  display: inline-block;        
+  position: absolute;
+  left: 90px;
+  max-width: 100%;
+  top: 10px;
+  color: #00619a;
+  font-size: 12px;
+  font-style: italic;
 }
 
 /* site logo */
 .navbar-brand {
-    height: auto;
-    padding:0 10px 15px 8px;
+  height: auto;
+  padding:0 10px 15px 8px;
 }
 
 #fs-logo {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 /* nav menu */
 
 #nav {
-    z-index: 10;
-    margin-top: 0;
-    padding-bottom: 30px;
+  z-index: 10;
+  margin-top: 0;
+  padding-bottom: 30px;
 }
 
 .leftNav {
-    margin: 39px 0 0 0;
-    border:0;
-    color: #195995;
-    background-color: #f0f0f0;
-    font-size: 16px;
+  margin: 39px 0 0 0;
+  border:0;
+  color: #195995;
+  background-color: #f0f0f0;
+  font-size: 16px;
 }
 
 /* menu position on home page is different than the rest of the site */
 .home .leftNav {
-    margin-top: 0;
-    margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .leftNav li {
-    padding:15px 20px;
-    border-top: 2px solid #fff;
-    list-style: none;
+  padding:15px 20px;
+  border-top: 2px solid #000;
+  list-style: none;
 }
 
 .leftNav li:first-of-type {
-    padding-top: 15px; /*    applied to first li instead of ul so that hover color change goes right to top of box*/
-    padding-bottom: 10px;
-    border-top:0;
+  padding-top: 15px; /*    applied to first li instead of ul so that hover color change goes right to top of box*/
+  padding-bottom: 10px;
+  border-top:0;
 }
 
 .leftNav li:hover, .leftNav li a:hover {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 #nav ul li a {
-    padding: 0;
+  padding: 0;
 }
 
 #nav ul ul {
-    border:0;
+  border:0;
 }
 
 #nav ul ul li {
-    font-weight: normal;
-    border-top:0;
-    padding:5px 0 5px 10px;
+  font-weight: normal;
+  border-top:0;
+  padding:5px 0 5px 10px;
 }
 
 #nav ul ul a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #nav li.current {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #nav li.current li {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 #nav li.current li.current {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 
 #nav button.topic-menu-trigger {
-    z-index: 10;
-    position: absolute;        
-    right: 0;
-    top:70px;
-    padding: 10px;
-    border:0;
-    background-position: center;
-    background-color: #f0f0f0;
+  z-index: 10;
+  position: absolute;        
+  right: 0;
+  top:70px;
+  padding: 10px;
+  border:0;
+  background-position: center;
+  background-color: #f0f0f0;
 }
 
 .home #nav button.topic-menu-trigger {
-    right: 15px;
-    top: 10px;
+  right: 15px;
+  top: 10px;
 }
 
 .navbar-collapse {
-    padding-right: 0;
+  padding-right: 0;
 }
 
 
 /* MAIN CONTENT */
 
 #main {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 .inline {
-    display: inline-block;
-    margin-top: 10px;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 #topicTemplate.template {
-    min-height: auto;
-	margin-bottom: 2rem;
+  min-height: auto;
+margin-bottom: 2rem;
 }
 
 #introBlock {
-    width:100%;
-    margin: 0;
-    padding: 20px 0 0 0;
+  width:100%;
+  margin: 0;
+  padding: 20px 0 0 0;
 }
 
 .intro-highlight {
-    background: #eeefef;
-    margin: 0 -9999rem;
-    padding: 20px 9999rem;
-    z-index: -10; 
+  background: #eeefef;
+  margin: 0 -9999rem;
+  padding: 20px 9999rem;
+  z-index: -10; 
 }
 
 /* for pages with images and gradient overlays at the top, so that gradient inside introBlock is flush to top */
 .home #introBlock {
-    padding-top: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:-200px -30px;
+  padding-top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:-200px -30px;
 }
 
 .home #introBlock .container {
-    position: relative;
+  position: relative;
 }
 
 .gradient {
-    padding-top: 20px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1) 30%, rgba(255, 255, 255, 1)) top center/cover no-repeat, linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 1)) top left/cover no-repeat;
+  padding-top: 20px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1) 30%, rgba(255, 255, 255, 1)) top center/cover no-repeat, linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 1)) top left/cover no-repeat;
 }
 
 #intro {
-    margin: 0 -15px;
-    padding: 30px 15px 15px 15px;
-    font-size: 16px;
-    z-index: 1;
-    color: #234075;
-    position: relative;
-    background: none;
+  margin: 0 -15px;
+  padding: 30px 15px 15px 15px;
+  font-size: 16px;
+  z-index: 1;
+  color: #234075;
+  position: relative;
+  background: none;
 }
 
 #intro p {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .faq #intro h2, .resources #intro h2 {
-    margin-top: 20px;
-    padding-top: 0;
+  margin-top: 20px;
+  padding-top: 0;
 }
 
 /* home page*/ .site-info {
-    margin-top: 20px;
-    margin-bottom: 25px;
-    padding-bottom: 20px;
-    background: linear-gradient(to right, #c0e665 18%, rgba(255,255,255,0) 0%) bottom/10px 2px repeat-x; /* dotted border*/
-    color: #00629b;
-    font-style: italic;
-    text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  background: linear-gradient(to right, #c0e665 18%, rgba(255,255,255,0) 0%) bottom/10px 2px repeat-x; /* dotted border*/
+  color: #00629b;
+  font-style: italic;
+  text-align: center;
 }
 
 .site-info i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .site-info a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #fs-logo {
-    display: inline-block;
-    margin-bottom: 10px; /* for when tagline drops below logo on small screens */
-    }
+  display: inline-block;
+  margin-bottom: 10px; /* for when tagline drops below logo on small screens */
+  }
 
 .tagline {
-    position: relative;
-    width: 50%;
-    color: #fff;
-    font-style: italic;
-    font-size: 16px;
-    text-shadow: 1px 1px #707070;
-    }
+  position: relative;
+  width: 50%;
+  color: #000;
+  font-style: italic;
+  font-size: 16px;
+  text-shadow: 1px 1px #707070;
+  }
 
 .home #topicTemplate {
-    background: none;
+  background: none;
 }
 
 #introBlock .feature {
-    padding: 20px 0 0 0;
-    margin-bottom: -10px;
+  padding: 20px 0 0 0;
+  margin-bottom: -10px;
 }
 
 #introBlock .feature h1, .feature ul, .feature li, .feature h2  {
-    display: inline-block;
+  display: inline-block;
 }
 
 #introBlock .feature h1 {
-    margin-top: 10px;
-    margin-right: 10px;
-	margin-bottom: 90px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    color: #fff;
-    font-weight: normal;
-    font-size: 28px;
-    background-color: #FCBA19;
-    width: 230px;
+  margin-top: 10px;
+  margin-right: 10px;
+margin-bottom: 90px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #000;
+  font-weight: normal;
+  font-size: 28px;
+  background-color: #FCBA19;
+  width: 230px;
 }
 #introBlock .feature h1 .fa-arrow-right {
-    color: #fff;
-    margin-left: 10px;
+  color: #000;
+  margin-left: 10px;
 }
 
 .instructors #introBlock h1 {
-    font-weight: normal;
-    font-size: 36px;
-    color: #fff;
-    text-shadow: 1px 1px #707070;
+  font-weight: normal;
+  font-size: 36px;
+  color: #000;
+  text-shadow: 1px 1px #707070;
 }
 
 
 #introBlock .feature h1 a, .instructors #introBlock h1 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .feature p {
-    font-size: 21px;
-    text-align: center;
-    padding: 10px;
-    color: #006eaf;
-    font-weight: bold;
-	line-height:18px;
+  font-size: 21px;
+  text-align: center;
+  padding: 10px;
+  color: #006eaf;
+  font-weight: bold;
+line-height:18px;
 }
-    
+  
 
 /* used on courses page*/
 .course-title {
-    height:100px;
-    margin: 40px -15px 0 -15px;
-    padding: 35px 20px;
-    color: #fff;
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: bold;
+  height:100px;
+  margin: 40px -15px 0 -15px;
+  padding: 35px 20px;
+  color: #000;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: bold;
 }
 
 .course-title .course-icon {
-    margin: -20px 10px 0 10px;
+  margin: -20px 10px 0 10px;
 }
 
 .course-title a {
-    color: #fff;
+  color: #000;
 }
 
 .level1 h2.course-title {
-    background: linear-gradient(to bottom, 
- rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/Level1-plating.jpg) center, 0 -60px/cover no-repeat;
-    border-bottom: 5px solid #00629b;
+  background: linear-gradient(to bottom, 
+rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/Level1-plating.jpg) center, 0 -60px/cover no-repeat;
+  border-bottom: 5px solid #00629b;
 }
 
 .refresher h2.course-title {
-    background: linear-gradient(to bottom, 
- rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/Refresher.jpg) no-repeat;
-    background-size: cover;
-    border-bottom: 5px solid #5091cd;
+  background: linear-gradient(to bottom, 
+rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/Refresher.jpg) no-repeat;
+  background-size: cover;
+  border-bottom: 5px solid #5091cd;
 }
 
 .level2 h2.course-title {
-    background: linear-gradient(to bottom, 
- rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/Level2-sautee.jpg) no-repeat;
-    background-position: center, 0 -60px;
-    background-size: cover;
-    border-bottom: 5px solid #5a9b01;
+  background: linear-gradient(to bottom, 
+rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/Level2-sautee.jpg) no-repeat;
+  background-position: center, 0 -60px;
+  background-size: cover;
+  border-bottom: 5px solid #5a9b01;
 }
 
 .processSafe h2.course-title {
-    background: linear-gradient(to bottom, 
- rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/processSafe_BG.jpg) no-repeat;
-    background-position: center, 0 -60px;
-    background-size: cover;
-    border-bottom: 5px solid #e35b00;
+  background: linear-gradient(to bottom, 
+rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/processSafe_BG.jpg) no-repeat;
+  background-position: center, 0 -60px;
+  background-size: cover;
+  border-bottom: 5px solid #e35b00;
 }
 
 .marketsafe h2.course-title {
-    background: linear-gradient(to bottom, 
- rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/Marketsafe-tomatoes.jpg) center, bottom left/cover no-repeat;
-    border-bottom: 5px solid #961a4d;
+  background: linear-gradient(to bottom, 
+rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url(../images/Marketsafe-tomatoes.jpg) center, bottom left/cover no-repeat;
+  border-bottom: 5px solid #961a4d;
 }
 
 .microbiology h2.course-title {
-    background: linear-gradient(to bottom, 
- rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url("../images/microbiology.jpg") no-repeat;
-    background-position: center, 0 -60px;
-    background-size: cover;
-    border-bottom: 5px solid #677533;
+  background: linear-gradient(to bottom, 
+rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.5)), url("../images/microbiology.jpg") no-repeat;
+  background-position: center, 0 -60px;
+  background-size: cover;
+  border-bottom: 5px solid #677533;
 }
 
 #main {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 h1 {
-    font-size: 31px;
-    color: #00619a;
-    font-weight: normal;
+  font-size: 31px;
+  color: #00619a;
+  font-weight: normal;
 }
 
 #main h2, #haContacts h2 {
-    background-image: linear-gradient(to right, #00619a 18%, rgba(255,255,255,0) 0%);
-    background-position: top;
-    background-size: 10px 2px;
-    background-repeat: repeat-x;
-    padding-top: 20px;
-    color:#00619a;
-    margin-top: 40px;
+  background-image: linear-gradient(to right, #00619a 18%, rgba(255,255,255,0) 0%);
+  background-position: top;
+  background-size: 10px 2px;
+  background-repeat: repeat-x;
+  padding-top: 20px;
+  color:#00619a;
+  margin-top: 40px;
 }
 
 #main .home h2 {
-    color: #494949;
-    background: none;
-    padding-top: 0;
+  color: #494949;
+  background: none;
+  padding-top: 0;
 }
 
 #main h2:first-of-type, #main h2.guide-section:first-of-type {
-    margin-top:0;
-    background-image: none;
+  margin-top:0;
+  background-image: none;
 }
 
 #main h2 a, h2 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h2 a {
-    color: inherit;
+  color: inherit;
 }
 
 .resources h2+p {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
 h3 {
-    margin-top: auto; 
-    padding-top: 20px;
-    background-image: linear-gradient(to right, #00619a 18%, rgba(255,255,255,0) 0%);
-    background-position: top;
-    background-size: 10px 2px;
-    background-repeat: repeat-x;
-    color: #1a2d5d;
+  margin-top: auto; 
+  padding-top: 20px;
+  background-image: linear-gradient(to right, #00619a 18%, rgba(255,255,255,0) 0%);
+  background-position: top;
+  background-size: 10px 2px;
+  background-repeat: repeat-x;
+  color: #1a2d5d;
 }
 
 #secondary {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 
 /*Take a course page */ #secondary.col-md-12 .row {
-    margin-top: 35px;
-    padding-top: 0px;
-    background-image: linear-gradient(to right, #1f9f3b 18%, rgba(255,255,255,0) 0%);
-    background-position: top;
-    background-size: 10px 2px;
-    background-repeat: repeat-x;
+  margin-top: 35px;
+  padding-top: 0px;
+  background-image: linear-gradient(to right, #1f9f3b 18%, rgba(255,255,255,0) 0%);
+  background-position: top;
+  background-size: 10px 2px;
+  background-repeat: repeat-x;
 }
 
 /*Take a course page: when secondary section is full width, no dotted border between it and the intro area */
 #secondary.col-md-12 .row:first-of-type {
-    background-image: none;
-    margin-top:0;
+  background-image: none;
+  margin-top:0;
 }
 
 #secondary h2 {
-    position: relative;
-    background-image: none;
-    color: #1f9f3b;
-    margin-top:18px;
-    margin-bottom: 8px;
+  position: relative;
+  background-image: none;
+  color: #1f9f3b;
+  margin-top:18px;
+  margin-bottom: 8px;
 }
 
 #secondary h3 {
-    margin-bottom: 8px;
-    background-image: none;
-    padding-top:0;
+  margin-bottom: 8px;
+  background-image: none;
+  padding-top:0;
 }
 
 a.secondary {
-    font-weight: bold;
-    text-decoration: none;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 a.secondary:after {
-    content:"\f0a9";
-    font-family: "FontAwesome";
-    margin-left: 5px;
-    font-size: 80%;
+  content:"\f0a9";
+  font-family: "FontAwesome";
+  margin-left: 5px;
+  font-size: 80%;
 }
 
 /* For lists items with a source attributed, e.g. province list on FOODSAFE outside of BC page */
 .source {
-    color: #afafaf;
-    margin-left: 5px;
+  color: #afafaf;
+  margin-left: 5px;
 }
 
 .source a {
-    color: #afafaf;
+  color: #afafaf;
 }
 
 .source a[href$="pdf"]:before {
-    content:"";
+  content:"";
 }
 
 /* NEW PDF ICONE PROPERTIES */
 .menu-pdf-icon a[href$="pdf"]:before {
-	position: absolute;
-    top: -3px;
-    left: 2px;
-    content: "\f1c1";
-    color: red;
-    font-family: "FontAwesome";
-    font-size: 16px;
+position: absolute;
+  top: -3px;
+  left: 2px;
+  content: "\f1c1";
+  color: red;
+  font-family: "FontAwesome";
+  font-size: 16px;
 }
 
 /* For any links that need extra visibility, e.g. in intro sectionn on FOODSAFE for your business page */
 .underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* LISTS */
 
 
 ul {
-    padding-left: 0;
-    margin-bottom: 16px;
-    list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 16px;
+  list-style-type: none;
 }
 
 /* used for lists within faq answers */
 ul.body-text {
-    list-style-type: disc;
-    padding-left: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 ul.body-text li {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 
 /* course list on home page */
 #courses {
-    margin-bottom: 0;
-    padding:0;
+  margin-bottom: 0;
+  padding:0;
 }
 
 #courses li {
-    min-width: 100%; 
-    padding-top: 10px;
-    padding-right: 0;
-    margin-bottom: 20px;
-    font-size: 22px;
-    line-height: 24px;
-    vertical-align: top;
-    color: white;
+  min-width: 100%; 
+  padding-top: 10px;
+  padding-right: 0;
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 24px;
+  vertical-align: top;
+  color: white;
 }
 
 #courses li a {
-    color: #036;
-    text-decoration: none;
-    line-height: 26px;
+  color: #036;
+  text-decoration: none;
+  line-height: 26px;
 }
 
 .course-icon {
-    float: left;
-    width: 50px;
-    height: 50px;
-    margin-right: 15px;
-    margin-top: 0;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 55px;
-    text-align: center;
-    background-color: #00619a;
-    color: #fff;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  margin-top: 0;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 55px;
+  text-align: center;
+  background-color: #00619a;
+  color: #000;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
 }
 
 .course-icon:hover {
-    background: #006eaf;
+  background: #006eaf;
 }
 
 .course-icon img {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 
 /* used for instructor qualifications */
 .checklist {
-    list-style: none;
-    padding-left: 20px;
-    padding-right: 10px;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 
 .checklist li {
-    position: relative;
-    padding-bottom: 10px;
+  position: relative;
+  padding-bottom: 10px;
 }
 
 
 .checklist li:before {
-    position: absolute;
-    left: -20px;
-    top: -2px;
-    content: "\f058";
-    color: #c3d82d;
-    font-family: "FontAwesome"; 
+  position: absolute;
+  left: -20px;
+  top: -2px;
+  content: "\f058";
+  color: #c3d82d;
+  font-family: "FontAwesome"; 
 }
 
 .downloads {
-    list-style: none;
-    padding-left: 0;
-    margin-top:-5px;
-    margin-bottom: 40px;
+  list-style: none;
+  padding-left: 0;
+  margin-top:-5px;
+  margin-bottom: 40px;
 }
 
 #intro [class*='col-'] {
-    padding:0;
+  padding:0;
 }
 
 /* download list style for both home page and resources page */
 .downloads li {
-    position: relative;
-    margin: 0;
-    padding: 8px 15px 5px 35px;
-    border-bottom: 1px solid #afafaf;
+  position: relative;
+  margin: 0;
+  padding: 8px 15px 5px 35px;
+  border-bottom: 1px solid #afafaf;
 }
 
 .downloads li:hover, .teach #intro .downloads li:hover {
-    background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 
 .downloads a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .downloads li a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a[href$="pdf"]:before {
-    position: absolute;
-    top: 5px;
-    left: 10px;
-    content: "\f1c1";
-    color: red;
-    font-family: "FontAwesome"; 
-    font-size: 16px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  content: "\f1c1";
+  color: red;
+  font-family: "FontAwesome"; 
+  font-size: 16px;
 }
 
 p a[href$="pdf"] {
-    position: relative;
-    margin-left: 20px;
+  position: relative;
+  margin-left: 20px;
 }
 
 p a[href$="pdf"]:before {
-    top: -5px;
-    left: -18px;
+  top: -5px;
+  left: -18px;
 }
 
 a.secondary[href$="pdf"]:before {
-    display:none;
+  display:none;
 }
 
 .teach #intro .downloads li {
-    border-color: #c3d82d;
-    width: 100%;
-    }
+  border-color: #c3d82d;
+  width: 100%;
+  }
 
 /*faq list style*/
 
 .faq #main h3 {
-    margin-top: 0;
-    margin-bottom: 8px;
-    padding-top: 30px;
-    line-height: 22px;
-    vertical-align: top;
+  margin-top: 0;
+  margin-bottom: 8px;
+  padding-top: 30px;
+  line-height: 22px;
+  vertical-align: top;
 }
 
 .faq #main h4 {
-    margin: 8px 0;
+  margin: 8px 0;
 }
 
 
 .faq #intro ul {
-    list-style-type:none;
-    padding-left: 20px;
+  list-style-type:none;
+  padding-left: 20px;
 }
 
 .faq #intro ul li {
-    padding: 10px 0;
-    border-bottom: 1px solid #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
 }
 
 
@@ -747,109 +747,109 @@ a.secondary[href$="pdf"]:before {
 
 
 #contacts .col-sm-12 {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #contacts a {
-    display:block;
+  display:block;
 }
 
 #haContacts h3 {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #haContacts ul {
-    list-style: none;  
-    padding-left: 0;
-    margin-bottom: 30px;
+  list-style: none;  
+  padding-left: 0;
+  margin-bottom: 30px;
 }
 
 #haContacts ul li {
-    border-bottom: 1px solid #ccc;
-    padding: 8px 16px;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 16px;
 }
 
 
 #haContacts ul li strong, .contacts li a {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 
 
 #fhContacts ul {
-    background-color: rgba(222,152,40,0.1);
+  background-color: rgba(222,152,40,0.1);
 }
 
 #fhContacts ul li {
-    border-color: rgb(222,152,40);
+  border-color: rgb(222,152,40);
 }
 
 #fh:before {
-    color:  rgb(222,152,40);
+  color:  rgb(222,152,40);
 }
 
 #vihaContacts ul {
-    background-color: rgba(108,185,177,0.1);
+  background-color: rgba(108,185,177,0.1);
 }
 
 #viha:before {
-    color: rgb(108,185,177);
+  color: rgb(108,185,177);
 }
 
 #vihaContacts ul li {
-    border-color: rgb(108,185,177);
+  border-color: rgb(108,185,177);
 }
 
 #nhContacts ul {
-    background-color: rgba(254,242,132,0.2);
+  background-color: rgba(254,242,132,0.2);
 }
 
 #nhContacts ul li {
-    border-color: #f7df02;
+  border-color: #f7df02;
 }
 
 #nh:before {
-    color: #f7df02;
+  color: #f7df02;
 }
 
 
 #ihContacts ul {
-    background-color: rgba(123,123,187,0.1);
+  background-color: rgba(123,123,187,0.1);
 }
 
 #ihContacts ul li {
-    border-color: rgb(123,123,187);
+  border-color: rgb(123,123,187);
 }
 
 #ih:before {
-    color: rgb(123,123,187);
+  color: rgb(123,123,187);
 }
 
 #vchContacts ul {
-    background-color: rgba(161,207,119,0.2);
+  background-color: rgba(161,207,119,0.2);
 }
 
 #vchContacts ul li {
-    border-color: rgb(161,207,119);
+  border-color: rgb(161,207,119);
 }
 
 #vch:before {
-    color: rgb(161,207,119);
+  color: rgb(161,207,119);
 }
 
 
 .closed:before, .open:before {
-    font-family: "FontAwesome";
-    margin-right: 5px;
-    color: #00619a;
+  font-family: "FontAwesome";
+  margin-right: 5px;
+  color: #00619a;
 }
 
 .closed:before {
-    content: "\f078";
+  content: "\f078";
 }
 
 .open:before {
-    content: "\f077";
+  content: "\f077";
 }
 
 
@@ -857,68 +857,68 @@ a.secondary[href$="pdf"]:before {
 /* link list - used on Resources page*/
 
 .link-list {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .link-list li {
-    margin: 16px 0;
-    line-height: 22px;
+  margin: 16px 0;
+  line-height: 22px;
 }
 
 .link-list li:hover {
-    background-color: #efefef;
+  background-color: #efefef;
 }
 
 .link-list img {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 
 .link-list a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 
 /* card list - used on Business page*/
 
 .cards {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .cards li {
-    display:block;
-    width:100%;
-    background-color: #efefef;
-    margin-bottom: 20px;
-    margin-right: 5%;
-    padding: 12px;
-    border-radius: 5px;
+  display:block;
+  width:100%;
+  background-color: #efefef;
+  margin-bottom: 20px;
+  margin-right: 5%;
+  padding: 12px;
+  border-radius: 5px;
 }
 
 .cards li:hover {
-        background-color: rgba(31,159,59, 0.15);
+      background-color: rgba(31,159,59, 0.15);
 }
 
 .cards li a {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 /*Ruled list (used on outside of BC page and newsletter archive)*/
 
 ul.ruled {
-    list-style-type: none;
-    padding-left: 10px;
-    }
+  list-style-type: none;
+  padding-left: 10px;
+  }
 
 ul.ruled li {
-    margin: 0;
-    padding: 8px 10px 5px 10px;
-    border-bottom: 1px solid #afafaf;
-    }
+  margin: 0;
+  padding: 8px 10px 5px 10px;
+  border-bottom: 1px solid #afafaf;
+  }
 
 ul.ruled li:first-of-type {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 
@@ -926,24 +926,24 @@ ul.ruled li:first-of-type {
 /* TABLES */
 
 #main table.table {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 tr {
-    border-top: 1px solid #ccc;
+  border-top: 1px solid #ccc;
 }
 
 td {
-    padding: 8px 4px;
+  padding: 8px 4px;
 }
 
 .faq table {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .faq table th, td {
-    text-align: left;
-    padding: 10px 40px 10px 0;
+  text-align: left;
+  padding: 10px 40px 10px 0;
 }
 
 
@@ -951,364 +951,364 @@ td {
 
 
 #intro .img-fluid {
-    max-width: 110%;
-    height: auto;
-    margin-right: -15px;
-    margin-left: -15px;
+  max-width: 110%;
+  height: auto;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 #main .img-fluid {
-    max-width: 110%;
-    height: auto;
-    margin: 40px auto;
+  max-width: 110%;
+  height: auto;
+  margin: 40px auto;
 }
 h3 img {
-    margin-right: 15px;
-    vertical-align: baseline;
+  margin-right: 15px;
+  vertical-align: baseline;
 }
 
 /*VIDEOS*/
 
 #videoPreview {
-    position: relative;
+  position: relative;
 }
 
 #videoPreview:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    z-index: 10;
-    opacity: .5;
-    color: #fff;
-    content: "\f01d";
-    font-family: "FontAwesome";
-    font-size: 100px;
-    line-height: 100px;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  z-index: 10;
+  opacity: .5;
+  color: #000;
+  content: "\f01d";
+  font-family: "FontAwesome";
+  font-size: 100px;
+  line-height: 100px;
+  cursor: pointer;
 }
 .placeholder #videoPreview:before {
-	display: none;
+display: none;
 }
 
 #videoPreview:hover:before {
-    opacity: 0.8;
-    color: #fff;
+  opacity: 0.8;
+  color: #000;
 }
 
 #videoPreview img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 #videoPreview p {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #fff;
-    background-color: rgba(0,51,102, 0.4);
-    margin: 0;
-    padding: 10px;
-    font-size: 14px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000;
+  background-color: rgba(0,51,102, 0.4);
+  margin: 0;
+  padding: 10px;
+  font-size: 14px;
 }
 
 #videoPreview p i {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 #video {
-    display:none;
+  display:none;
 }
-	
+
 
 /*ICONS*/
 
 .feature i {
-    margin-right: 8px;
-    color: #c3d82d;
+  margin-right: 8px;
+  color: #c3d82d;
 }
 
 .list-inline {
-    list-style-type: none;
-    margin:20px 0;
-    padding-left:10px;
-    font-size: 14px;
+  list-style-type: none;
+  margin:20px 0;
+  padding-left:10px;
+  font-size: 14px;
 }
 
 .list-inline li {
-    margin-left: 10px;
-    font-style: italic;
-    line-height: 16px;
-    padding: 0;
+  margin-left: 10px;
+  font-style: italic;
+  line-height: 16px;
+  padding: 0;
 }
 
 .list-inine li:first-of-type {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 
 .courses .list-inline {
-    margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 
 .list-inline a {
-      color:#00619a;
+    color:#00619a;
 }
 
 .list-inline i {
-    margin: 0 5px 0 0;
+  margin: 0 5px 0 0;
 }
 
 /* remove left margin from first icon in the row*/
 ul.list-inline {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 
 ul.list-inline > i.fa {
-    margin-left: 0;
-    padding-left: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .certificate {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 
 /*
 .five-years {
-    position:relative;
+  position:relative;
 }
 
 .five-years:after {
-    content:"5"; 
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    color: #234075;
-    position: absolute;
-    left: 8px;
-    top: 6px;
+  content:"5"; 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #234075;
+  position: absolute;
+  left: 8px;
+  top: 6px;
 }
 */
 
 
 h2.icon {
-    position: relative;
+  position: relative;
 }
 
 .home h2.icon {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 
 h2.icon:before {
-    position: absolute;
-    top: -8px;
-    left: -40px;
-    font-size: 38px;
-    font-family: "FontAwesome";
-    color: #c3d82d;
+  position: absolute;
+  top: -8px;
+  left: -40px;
+  font-size: 38px;
+  font-family: "FontAwesome";
+  color: #c3d82d;
 }
 
 #secondary h2.icon:before {
-    font-size:21px;
-    left: -28px;
-    top: -4px;
-    color: inherit;
+  font-size:21px;
+  left: -28px;
+  top: -4px;
+  color: inherit;
 }
 
 
 .top {
-    padding-left: 20px;
-    color: #ccc;
+  padding-left: 20px;
+  color: #ccc;
 }
 
 .faq h3 {
-    clear: both;
+  clear: both;
 }
 
 
 /*BUTTONS AND LINKS*/
 img.back-to-top {
-    float: right;
-	margin: .5rem .5rem 0 0;
+  float: right;
+margin: .5rem .5rem 0 0;
 }
 #footerAdminLinks {
-    clear: both;
+  clear: both;
 }
 button[type="submit"]:hover {
-    background-color: #006eaf;
+  background-color: #006eaf;
 }
 
 button[type="submit"].disabled {
-    background-color: #c9c9c9;
-    border-color: #c9c9c9;
+  background-color: #c9c9c9;
+  border-color: #c9c9c9;
 }
 
 .button-wrap {
-    margin:20px 0;
+  margin:20px 0;
 }
 
 /*primary links styled to look like buttons*/
 
 a.primary, button[type="submit"] {
-    display: inline-block;
-    margin-top: 5px;
-    background-color: #00619a;
-    border: 1px solid #00619a;
-    border-radius: 2px;
-    color: #fff;
-    padding: 7px 10px 5px 10px;
-    text-align: center;
-    text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+  background-color: #00619a;
+  border: 1px solid #00619a;
+  border-radius: 2px;
+  color: #000;
+  padding: 7px 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
 }
 
 a.primary:hover {
-    background-color: #006eaf;
+  background-color: #006eaf;
 }
 
 a.processSafe, button[type="submit"] {
-    display: inline-block;
-    margin-top: 5px;
-    background-color: #fd6601;
-    border: 1px solid #e35b00;
-    border-radius: 2px;
-    color: #fff;
-    padding: 7px 10px 5px 10px;
-    text-align: center;
-    text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+  background-color: #fd6601;
+  border: 1px solid #e35b00;
+  border-radius: 2px;
+  color: #000;
+  padding: 7px 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
 }
 
 a.processSafe:hover {
-    background-color: #fd802d;
+  background-color: #fd802d;
 }
 a.microbiology, button[type="submit"] {
-    display: inline-block;
-    margin-top: 5px;
-    background-color: #677533;
-    border: 1px solid #677533;
-    border-radius: 2px;
-    color: #fff;
-    padding: 7px 10px 5px 10px;
-    text-align: center;
-    text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+  background-color: #677533;
+  border: 1px solid #677533;
+  border-radius: 2px;
+  color: #000;
+  padding: 7px 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
 }
 
 a.microbiology:hover {
-    background-color: #679609;
+  background-color: #679609;
 }
 
 
 .home-action {
-    display: block;
-    width: 100%;
-    padding: 12px 20px 8px 20px;
-    margin-top: 20px;
-    color: #00629b;
-    font-size: 18px;
-    line-height: 18px;
-    background-color: #f0f0f0;
-    border: 1px solid #00629b;
-    text-align: center;
+  display: block;
+  width: 100%;
+  padding: 12px 20px 8px 20px;
+  margin-top: 20px;
+  color: #00629b;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: #f0f0f0;
+  border: 1px solid #00629b;
+  text-align: center;
 }
 
 .home-action:hover {
-    background-color: #fff;
-    text-decoration: none;
+  background-color: #000;
+  text-decoration: none;
 }
 
 .action-block {
-    padding: 0;
-    margin-top: 30px;
-    border-radius: 2px;
-    text-align: center;
+  padding: 0;
+  margin-top: 30px;
+  border-radius: 2px;
+  text-align: center;
 }
 
 .teach .action-block {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 /*  id selector needed to override main gov css  */
 #topicTemplate .action-block h2 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .action-block p:after {
-    content:"\f0a9";
-    font-family: "FontAwesome";
-    margin-left: 5px;
+  content:"\f0a9";
+  font-family: "FontAwesome";
+  margin-left: 5px;
 }
 
 .action-block a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .action-block:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .action-block:hover p:after {
-    color: #c3d82d;
+  color: #c3d82d;
 }
 
 /*Login/logout button style as specified in gov developers guide: http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/web-presence/developers-guide/css-elements#css*/
 
 .btn {
-    padding: 6px 20px;
-    background-color: #00619a;
-    color: #fff;
-    font-family: inherit;
-    text-decoration: none;   
+  padding: 6px 20px;
+  background-color: #00619a;
+  color: #000;
+  font-family: inherit;
+  text-decoration: none;   
 }
 
 .btn:hover {
-    text-decoration: none;
-    color: #fff;
-    background-color: #006dae;
+  text-decoration: none;
+  color: #000;
+  background-color: #006dae;
 }
 
 .btn:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #header .btn {
-    float: right;
-    height: 25px;
-    margin-right: 15px;
-    margin-top: 25px;
-    padding: 3px 8px 3px 8px;
-    border-radius: 0;
-    color: #003366;
-    background-color: #fff;
-    }
+  float: right;
+  height: 25px;
+  margin-right: 15px;
+  margin-top: 25px;
+  padding: 3px 8px 3px 8px;
+  border-radius: 0;
+  color: #003366;
+  background-color: #000;
+  }
 
 #header .btn:hover {
-    color: #003366;
+  color: #003366;
 }
 
 #user {
-    text-align: right;
-    color: #fff;
-    float: right;
-    margin-top: 25px;
+  text-align: right;
+  color: #000;
+  float: right;
+  margin-top: 25px;
 }
 
 #user span {
-    font-style: italic;
+  font-style: italic;
 }
 
 .btn-logout {
-    height: 25px;
-    width: 70px;
-    margin: 0 15px;
-    padding: 3px 8px 3px 8px;
-    color:  #1a5a96; 
-    background-color: #fff;
-    font-size: 13px;
-    }
+  height: 25px;
+  width: 70px;
+  margin: 0 15px;
+  padding: 3px 8px 3px 8px;
+  color:  #1a5a96; 
+  background-color: #000;
+  font-size: 13px;
+  }
 
 
 /*
@@ -1318,26 +1318,26 @@ FORMS
 */
 
 #login label {
-    color: #fff;
+  color: #000;
 }
 
 #formSuccess, #formFailure {
-    margin-bottom: 10px;
-    padding-bottom: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #formSuccess {
-    border-bottom: 1px solid #1f9f3b;
-    color: #1f9f3b;
+  border-bottom: 1px solid #1f9f3b;
+  color: #1f9f3b;
 }
 
 #formFailure {
-    border-bottom: 1px solid red;
-    color: red;
+  border-bottom: 1px solid red;
+  color: red;
 }
 
 #formFailure i {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
 /*
@@ -1347,13 +1347,13 @@ modifications to the default bootstrap alert style
 */
 
 .alert {
-    margin-bottom: 0;
-    border-radius: 0;
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 .alert a {
-    color: #d2322d;
-    text-decoration: underline;
+  color: #d2322d;
+  text-decoration: underline;
 }
 
 
@@ -1365,67 +1365,67 @@ keeping this all in one place to evaluate which elements are being color coded b
 */
 
 .marketsafe h1 {
-    color: #961a4d;
+  color: #961a4d;
 }
 
 
 .level2 h1 {
-    color: #5a9b01;
-    border-color: #5a9b01;
+  color: #5a9b01;
+  border-color: #5a9b01;
 }
 
 .level2.course-icon {
-    background-color: #5a9b01;
+  background-color: #5a9b01;
 }
 
 .course-icon.level2:hover, .level2 .primary:hover {
-    background-color: #65ae01;
+  background-color: #65ae01;
 }
 
 .level2 a.primary {
-    background-color: #5a9b01;
-    border-color: #5a9b01;
+  background-color: #5a9b01;
+  border-color: #5a9b01;
 }
 
 
 .marketsafe a.primary {
-    background-color: #961a4d;
-    border-color: #961a4d;
+  background-color: #961a4d;
+  border-color: #961a4d;
 }
 
 .course-icon.marketsafe {
-    background-color: #961a4d;
-    line-height: 50px;
+  background-color: #961a4d;
+  line-height: 50px;
 }
 
 .course-icon.marketsafe:hover, .marketsafe .primary:hover {
-    background-color: #b7205e;      /* less contrast: ba71d56*/
+  background-color: #b7205e;      /* less contrast: ba71d56*/
 }
 
 .refresher h1 {
-    color: #5091cd;
+  color: #5091cd;
 }
 
 .refresher.course-icon {
-    background-color: #5091cd;
+  background-color: #5091cd;
 }
 .refresher a.primary {
-    background-color: #5091cd;
-    border-color: #5091cd;
+  background-color: #5091cd;
+  border-color: #5091cd;
 }
 .course-icon.refresher:hover, .refresher .primary:hover {
-    background-color: #5f9bd1;
+  background-color: #5f9bd1;
 }
 .course-icon.processSafe {
-    background-color: #fd6601;
+  background-color: #fd6601;
 }
 .course-icon.microbiology {
-    background-color: #677533;
-    line-height: 50px;
+  background-color: #677533;
+  line-height: 50px;
 }
 
 .course-icon.microbiology:hover, .microbiology .primary:hover {
-    background-color: #679609;      /* less contrast: ba71d56*/
+  background-color: #679609;      /* less contrast: ba71d56*/
 }
 
 
@@ -1436,366 +1436,366 @@ PRE-FOOTER - FOODSAFE CONTACT AND PARTNERS
 */
 
 #fs-footer.container {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #fs-footer-wrapper {
-    background-color: #eeefef;
-    margin: 0;
-    padding: 20px 15px;
+  background-color: #eeefef;
+  margin: 0;
+  padding: 20px 15px;
 }
 
 #fs-footer #contact img {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 #fs-footer p {
-    text-align: center;
+  text-align: center;
 }
 
 #contact p {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 
 #contact strong {
-    color: #909295;
-    font-size: 20px;
-    font-weight: 600;
-    display: block;
+  color: #909295;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
 }
 
 
 /*email link style, with icon*/
 .email, .phone {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .email .glyphicon {
-        padding-right: 5px;
+      padding-right: 5px;
 }
 
 #partners {
-    clear: both;
+  clear: both;
 }
 
 #foodsafe-partners {
-    padding:0;
+  padding:0;
 }
 
 #partners ul {
-    text-align: center;
+  text-align: center;
 }
 
 #partners li {
-    display: inline-block;
+  display: inline-block;
 }
 
 #partners li img {
-    opacity: 0.6;
-    max-height: 60px;
-    padding: 5px 10px;
+  opacity: 0.6;
+  max-height: 60px;
+  padding: 5px 10px;
 }
 
 /*style guide styles*/
 
 .style-guide #main {
-    margin-top: 90px;
+  margin-top: 90px;
 }
 
 .specs {
-    display: none;
-    font-size: 14px;
-    color: #878787;
+  display: none;
+  font-size: 14px;
+  color: #878787;
 }
 
 #main h2.guide-section {
-    margin: 40px 0 30px -10px;
-    background: #f0f0f0;
-    color: #707070;
-    padding: 10px;
+  margin: 40px 0 30px -10px;
+  background: #f0f0f0;
+  color: #707070;
+  padding: 10px;
 }
 
 .swatch-list {
-    padding-left: 0;
-    margin-bottom: 20px;
+  padding-left: 0;
+  margin-bottom: 20px;
 }
 
 .swatch { 
-    list-style-type: none;
-    display: inline-block;
-    width: 100%; 
-	margin-bottom: 25px;
-	margin-right: 3%; 
-	padding: 20px; 
+  list-style-type: none;
+  display: inline-block;
+  width: 100%; 
+margin-bottom: 25px;
+margin-right: 3%; 
+padding: 20px; 
 }
 
 .BCblue { 
-	color: #FFF; 
-	background-color: #234075; 
+color: #000; 
+background-color: #234075; 
 }
 .BCyellow { 
-	color: #FFF; 
-	background-color: #fcba19; 
+color: #000; 
+background-color: #fcba19; 
 }
 .darkblue { 
-	color: #FFF; 
-	background-color:#036; 
+color: #000; 
+background-color:rgb(0, 51, 102); 
 }
 .blue { 
-	color: #FFF; 
-	background-color: #00619a; 
+color: #000; 
+background-color: #00619a; 
 }
 .lightblue { 
-	color: #FFF; 
-	background-color: #5091cd; 
+color: #000; 
+background-color: #5091cd; 
 }
 .green1 { 
-	color: #FFF; 
-	background-color: #1f9f3b; 
+color: #000; 
+background-color: #1f9f3b; 
 }
 .green2 { 
-	color: #FFF; 
-	background-color: #5a9b01; 
+color: #000; 
+background-color: #5a9b01; 
 }
 .green3 { 
-	color: #FFF; 
-	background-color: #c3d82d; 
+color: #000; 
+background-color: #c3d82d; 
 }
 .red { 
-	color: #FFF; 
-	background-color: #961a4d; 
+color: #000; 
+background-color: #961a4d; 
 }
 .grey { 
-	background-color: #f0f0f0; 
+background-color: #f0f0f0; 
 }
 .Hovergrey { 
-	background-color: #fafafa; 
+background-color: #fafafa; 
 }
 .Bodygrey { 
-	background-color: #494949; 
-	color:#FFF;
+background-color: #494949; 
+color:#000;
 }
 
 .featureLink > #topicTemplate > .action-block {
-	margin:0;
-	padding:0;
-	text-align:left;
+margin:0;
+padding:0;
+text-align:left;
 }
 .faqLink {
-	font-size:16px;
+font-size:16px;
 }
 #countdownContainer {
-  	position: relative;
-	float:right;
-    width: 360px;
-	height:200px;
-	text-align:center;
-	padding-top:25px;
+  position: relative;
+float:right;
+  width: 360px;
+height:200px;
+text-align:center;
+padding-top:25px;
 }
 #countdownBackground {
-  background: #FFF;
-  filter: alpha(opacity=60);
-  /* IE */
-  -moz-opacity: 0.6;
-  /* Mozilla */
-  opacity: 0.6;
-  /* CSS3 */
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 65px;
-  width: 275px;
-  margin-top: 0px;
-  border-radius:5px;
+background: #000;
+filter: alpha(opacity=60);
+/* IE */
+-moz-opacity: 0.6;
+/* Mozilla */
+opacity: 0.6;
+/* CSS3 */
+position: absolute;
+top: 0;
+left: 0;
+height: 65px;
+width: 275px;
+margin-top: 0px;
+border-radius:5px;
 }
 #countdownText {
-  position: absolute;
-  top: 0;
-  width: auto;
-  padding:10px;
-  height: 100%;
-  margin-left:10px;
-  text-align:center;
-  font-size:16px;
-  clear:both;
-  color:black;
+position: absolute;
+top: 0;
+width: auto;
+padding:10px;
+height: 100%;
+margin-left:10px;
+text-align:center;
+font-size:16px;
+clear:both;
+color:black;
 }
 .timerLabels {
-	display:block;
-	text-align:center;
-	width:340px;
+display:block;
+text-align:center;
+width:340px;
 }
 .days {
-	text-align:center;
-	margin-right:15%;
+text-align:center;
+margin-right:15%;
 }
 .hours {
-	text-align:center;
-	margin-left:15%;
+text-align:center;
+margin-left:15%;
 }
 .clockNumber {
-	font-weight:bold;
-	background-color:rgb(51,51,51);
-	color:#fff;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top:10px;
-	padding-bottom:0px;
-	font-size:48pt;
-	border-radius:10px;
+font-weight:bold;
+background-color:rgb(51,51,51);
+color:#000;
+padding-left: 10px;
+padding-right: 10px;
+padding-top:10px;
+padding-bottom:0px;
+font-size:48pt;
+border-radius:10px;
 }
 .clock {
-	font-weight:bold;
-	font-size:48pt;
-	color:rgb(51,51,51);
-	padding:10px;
+font-weight:bold;
+font-size:48pt;
+color:rgb(51,51,51);
+padding:10px;
 }
 ul.inline li a:link, nav ul.inline li a:visited {
-    color: #1a5a96;
-    display: block;
-    text-align: center;
+  color: #1a5a96;
+  display: block;
+  text-align: center;
 }
 .recertify-link {
-	padding: 25px 15px 5px;
-	border-radius:5px;
-	background-color: rgba(255, 255, 255, 0.8);
-	float:right;
-	margin-bottom: 20px;
+padding: 25px 15px 5px;
+border-radius:5px;
+background-color: rgba(255, 255, 255, 0.8);
+float:right;
+margin-bottom: 20px;
 }
 .recertify-link ul {
-    color: #00619a;
-    text-align: left;
-    font-size:15px;
-    line-height: 20px;
+  color: #00619a;
+  text-align: left;
+  font-size:15px;
+  line-height: 20px;
 }
 .recertify-link ul li{
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .recertify-link a {
-	color:#00619a;
-	text-decoration:underline;
-    font-weight: 600;
+color:#00619a;
+text-decoration:underline;
+  font-weight: 600;
 }
 .fsWidgetLink {
-	padding:15px;
-	border-radius:5px;
-	background-color: #c3d82d;
-	color:#fff;
-	float:right;
-	clear:right;
-	text-align: center;
-	font-size:18px;
+padding:15px;
+border-radius:5px;
+background-color: #c3d82d;
+color:#000;
+float:right;
+clear:right;
+text-align: center;
+font-size:18px;
 }
 .fsWidgetLink a {
-	color:#fff;
-	text-decoration:none;
+color:#000;
+text-decoration:none;
 }
 #dilution_table {
-	clear:left;
-	border:#ccc solid 2px;
-	border-radius:10px;
-	padding-top:10px;
-	padding-bottom:10px;	
-	padding-left:20px;
-	padding-right:20px;
-	margin-bottom:30px;
+clear:left;
+border:#ccc solid 2px;
+border-radius:10px;
+padding-top:10px;
+padding-bottom:10px;	
+padding-left:20px;
+padding-right:20px;
+margin-bottom:30px;
 
 }
 #dilution_table img {
-	float:left;
-	margin-right: 20px;
-	margin-top:10px;
+float:left;
+margin-right: 20px;
+margin-top:10px;
 }
 tr {
-	 border:none;
+ border:none;
 }
 #field1_help, #field2_help, #field3_help, #field4_help {
-	border:rgb(0,102,204) solid 1px;
-	border-radius:5px;
-	color:rgb(0,102,204);
-	width:auto;
-	text-align:center;
-	padding:10px;
+border:rgb(0,102,204) solid 1px;
+border-radius:5px;
+color:rgb(0,102,204);
+width:auto;
+text-align:center;
+padding:10px;
 }
 #dilution_table a i.fa {
-	cursor:pointer;
-	text-decoration: none;
-	color:rgb(0,102,204);
-	font-size:14pt;
+cursor:pointer;
+text-decoration: none;
+color:rgb(0,102,204);
+font-size:14pt;
 }
 #dilution_table input[type="submit"], input[type="button"] {
-	background-color:rgb(0,102,204);
-	color:#fff;
-	border:none;
-	box-shadow:none;
-	border-radius:5px;
-	padding-left:10px;
-	padding-right:10px;
-	padding-top:5px;
-	padding-bottom:5px;
-	float:right;
+background-color:rgb(0,102,204);
+color:#000;
+border:none;
+box-shadow:none;
+border-radius:5px;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+float:right;
 }
 #disclaimer {
-	float: left;
+float: left;
 }
 #dilution_table input {
-	margin-right: 5px;
+margin-right: 5px;
 }
 #introBlock .marketsafeLogo {
-	max-width: 250px;
+max-width: 250px;
 }
 
 /* ------ TEXT ------ */
 /* -- Contacts -- */
 /* -- YUKON -- */
 .YukonTitle {
-	padding: 2rem 0 2rem 1rem;
-	margin: 0px!important;
-	color: white;
+padding: 2rem 0 2rem 1rem;
+margin: 0px!important;
+color: white;
 }
 article.Yukon {
-	padding: 0rem!important;
-	background-color: #eee;
-	margin-bottom: 2rem;
+padding: 0rem!important;
+background-color: #eee;
+margin-bottom: 2rem;
 }
 .YukonAdress p{
-	padding: 3rem 0!important;
-	line-height: 3rem!important;
-	font-size: 16px;
+padding: 3rem 0!important;
+line-height: 3rem!important;
+font-size: 16px;
 }
 .YukonAdress{
-	padding-right: 0px!important;
+padding-right: 0px!important;
 }
 .YukonImg {
-	width: 120px;
-    padding-top: 4rem;
-    float: right;
+width: 120px;
+  padding-top: 4rem;
+  float: right;
 }
 .YukonBloc{
-	padding: 0 30px;
+padding: 0 30px;
 }
 a.close{
-    text-decoration: none; 
+  text-decoration: none; 
 }
 .alert-success {
-    border-bottom: #3c763d solid 1px;
-    border-color: #dff0d8;
+  border-bottom: #3c763d solid 1px;
+  border-color: #dff0d8;
 }
 .close:hover, .close:focus{
-    opacity: .8;
+  opacity: .8;
 }
 .alert-dismissible .close {
-    top: 0px;
-    opacity: .5;
+  top: 0px;
+  opacity: .5;
 }
- /* FIX FOR MARKETSAFE LOGO DISPLAY ISSUE IN IE 10 & 11 */
+/* FIX FOR MARKETSAFE LOGO DISPLAY ISSUE IN IE 10 & 11 */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    #introBlock img.marketsafeLogo {
-		width: 250px;
-		height: 125px;
-		margin-top: -20px;
-	}
+  #introBlock img.marketsafeLogo {
+  width: 250px;
+  height: 125px;
+  margin-top: -20px;
+}
 }
