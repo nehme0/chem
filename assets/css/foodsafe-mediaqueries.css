@@ -1,3 +1,6 @@
+* {
+  filter: invert(100%);
+}
 @media (max-width: 440px) {
     .list-inline > li { display: list-item; padding-right: 5px; padding-left: 5px; margin-top: 1rem; font-size: 16px; }
     .YukonImg { width: 120px; display: block; margin: 1rem auto; float: none; }
