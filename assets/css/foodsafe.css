@@ -1,3 +1,6 @@
+* {
+  filter: invert(100%);
+}
 body, html { overflow-x: hidden; }
 body.fs { background-color: rgb(255, 255, 255); }
 body.fs [class*="col-"] { padding-left: 15px; padding-right: 15px; margin-bottom: 20px; }
