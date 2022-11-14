@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    
+<head>
+    <title>Calculator</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon"  type="image/png" href="http://www2.gov.bc.ca/favicon.ico" />
+
+    <link rel="stylesheet" href="http://www2.gov.bc.ca/StaticWebResources/static/shared/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="http://www2.gov.bc.ca/StaticWebResources/static/gov3/css/main.css" type="text/css">
+    <link href="assets/css/foodsafe.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/foodsafe-mediaqueries.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> <!--for file icons-->
+    
+    <!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="assets/css/foodsafe-ie8-and-down.css" />
+    <![endif]-->
+
+
+    <script src="http://www2.gov.bc.ca/StaticWebResources/static/gov3/js/misc.js"></script>
+    <script src="http://www2.gov.bc.ca/StaticWebResources/static/shared/scripts/jquery/jquery-1.11.1.min.js"></script>
+    <script src="http://www2.gov.bc.ca/StaticWebResources/static/shared/bootstrap-3.2.0/js/bootstrap.min.js?refresh=160420091"></script>
+
+</head>     
+
+
+
+<body class="fs resources" onload="javascript:clearAllFields()">
+    
+        
+
+<div id="introBlock">
+<div class="container">
+    
+    
+
+    <div id="intro" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
+           <div id="dilution_table">
+	<form id="dilutionCalc">
+    	<table>
+	     	<tr valign="middle">
+	        	<td><label for ="NaOCl">Concentration of bleach product </label><a onclick="toggleDisplay('field1_help')"> <i class="fa fa-question-circle"></i></a></td>
+        	  <td><input id="NaOCl" size="10" onchange="validateInput(this.id, this.value)"/> sodium hypochlorite (wt %)</td>
+	        	
+	      	</tr>
+	      	<tr class="field_help">
+      		  <td colspan="2"><div style="display:none;" id="field1_help">Check the product label for the concentration.</div></td>
+	      	</tr>
+	      	<tr valign="middle">
+	        	<td><label for ="ClCon">Desired concentration of chlorine solution </label></td>
+	        	<td><input id="ClCon" size="10" onchange="validateInput(this.id, this.value)"/> ppm or mg/L</td>
+	      	</tr>
+            <tr class="field_help">
+      		  <td colspan="2"><div style="display:none;" id="field1_help">Check the product label for the concentration.</div></td>
+	      	</tr>
+	      	<tr valign="middle">
+		        <td><label for ="ClSolVol">Desired volume of chlorine solution </label><a onclick="toggleDisplay('field3_help')"> <i class="fa fa-question-circle"></i></a></td>
+		        <td><input id="ClSolVol" size="10" onchange="validateInput(this.id, this.value)"/>
+		        <select id="ClSolVolUnit">
+				  <option value="L">litres</option>
+				  <option value="gallons_US">gallons (US)</option>
+				  <option value="gallons_Imperial">gallons (Imperial)</option>
+				</select>
+		  		</td>
+	    	</tr>
+	    	<tr class="field_help">
+	    		<td colspan="2"><div style="display:none;" id="field3_help">(i.e. how much of a sanitizing solution do you want to make?)</div></td>
+	    	</tr>
+	     	<tr valign="middle">
+		      	<td><label for ="bleachUnit">Desired unit of measure for bleach product </label><a onclick="toggleDisplay('field4_help')"> <i class="fa fa-question-circle"></i></a></td>
+		      	<td>
+		      	<select id="bleachUnit">
+				  <option value="gallons_Imperial">gallons (Imperial)</option>
+				  <option value="gallons_US">gallons (US)</option>
+				  <option value="L">litres</option>
+				  <option value="pints_Imperial">pints (Imperial)</option>
+				  <option value="pints_US">pints (US)</option>
+				  <option value="metric_cups">metric cups</option>
+				  <option value="fluid_ounces_US">fluid ounces (US)</option>
+				  <option value="fluid_ounces_Imperial">fluid ounces (Imperial)</option>
+				  <option value="tablespoon">tablespoons</option>
+				  <option value="teaspoon">teaspoons</option>
+				  <option value="mL">millilitres</option>
+				  <option value="drops">drops</option>
+				</select>
+		      	</td>
+	      	</tr>
+	      	<tr class="field_help">
+	      		<td colspan="2"><div style="display:none;" id="field4_help">(i.e. how will you measure the amount of bleach to be added to water?)</div></td>
+	      	</tr>
+   		</table>	
+   	</form>
+	
+	<input type="submit" onclick="toggleDisplay('calculatedResult'); calc()" value="Calculate"></input>
+	<input type="button" onclick="javascript:clearAllFields();" value ="Clear"></input>
+	
+    <br/><br/>
+   	<div style="display:none;" id="calculatedResult"></div>
+    
+</div>
+    </div>
+    
+    
+
+
+     </div>
+</div>
+
+
+
+<script type="text/javascript" src="assets/js/dilutionCalc.js"></script>
+<script type="text/javascript" src="assets/js/fraction.js"></script>
+</body>
+</html>

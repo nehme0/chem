@@ -1,0 +1,106 @@
+@media (max-width: 440px) {
+    .list-inline > li { display: list-item; padding-right: 5px; padding-left: 5px; margin-top: 1rem; font-size: 16px; }
+    .YukonImg { width: 120px; display: block; margin: 1rem auto; float: none; }
+    .recertify-link { width: 100%; }
+  }
+  @media (min-width: 440px) {
+    .list-inline li.certificate { margin: 1rem 0px; float: left; }
+    .intro-highlight { clear: both; }
+    .swatch { width: 45%; }
+    .course-icon { width: 65px; height: 65px; border-radius: 65px; margin-top: -8px; font-size: 45px; line-height: 70px; }
+    .course-icon img { margin-top: 13px; }
+    #secondary h2.icon::before { top: 0px; }
+    .cards li { display: inline-block; width: 45%; float: left; }
+    button { width: auto; }
+    #login label { color: rgb(0, 51, 102); }
+    body.fs.home #introBlock [class*="col-"] { padding-right: 0px; }
+    .leftNav { margin-top: 9px; }
+    #nav button.topic-menu-trigger { top: 40px; }
+    .home #introBlock { background-position: center top, -150px 0px; }
+    #courses li { font-size: 24px; line-height: 28px; padding-right: 20px; }
+    .course-data li { display: inline-block; }
+    .list-inline { font-size: 16px; }
+    .list-inline li { margin-left: 10px; border-left: 1px solid rgb(35, 64, 117); padding-left: 12px; }
+    .list-inline li:first-of-type { border-left: 0px; padding-left: 0px; }
+    #intro .course-title { margin: 0px; padding: 35px 5px; font-size: 24px; }
+    #intro h2 { margin-top: 20px; }
+    #intro [class*="col-"] { padding: 0px 15px; }
+    a.login { margin-top: 25px; }
+    #logo { float: left; }
+    p.inline { margin-left: 10px; }
+    #videoPreview::before { margin-top: -63px; margin-left: -54px; font-size: 125px; line-height: 125px; }
+    #videoPreview p { font-size: 16px; }
+    #intro .resources li { width: 45%; display: inline-block; padding-left: 40px; margin-right: 15px; }
+    .faq #intro ul { padding-left: 0px; }
+    .faq #intro ul li { padding: 5px 0px; }
+    #contacts .col-sm-12 { padding-left: 15px; padding-right: 15px; }
+    #contacts a { display: inline; }
+    .link-list li { margin: 8px 0px; line-height: 40px; }
+    .recertify-link { width: 100%; }
+    .recertify-link { width: 75%; }
+  }
+  @media (min-width: 550px) {
+    .YukonImg { width: 120px; float: right; }
+    .tagline { position: absolute; right: 20px; top: 20px; font-size: 18px; width: auto; }
+    #topicLeftNav .container { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+    #courses li { min-height: 90px; min-width: 0px; }
+    btn.login { margin-right: 100px; }
+    .home #nav button.topic-menu-trigger { top: -40px; }
+    .recertify-link { width: 75%; }
+  }
+  @media (min-width: 768px) {
+    .YukonImg { width: 120px; padding-top: 4rem; float: right; }
+    .business #intro { font-size: 18px; line-height: 23px; }
+    btn.login { margin-right: 15px; }
+    #fs-logo { width: auto; height: auto; }
+    #header h1#siteTitle { margin: 18px 0px 0px 18px; font-size: 28px; }
+    .instructors #introBlock h1 { color: rgb(0, 51, 102); text-shadow: rgb(255, 255, 255) 1px 1px; }
+    .home .navbar-collapse.collapse { padding-left: 0px; }
+    .navbar-collapse { display: none; }
+    .leftNav { margin-top: 10px; font-size: 14px; }
+    .home .leftNav { margin-top: 0px; background-color: rgb(255, 255, 255); }
+    .home #header .navbar-nav { display: none; }
+    .leftNav li { float: none; list-style: none; line-height: 14px; margin: 0px; border: 0px; padding: 5px 15px; }
+    .BlockLogo { position: absolute; right: 0px; top: 163px; }
+    .marketsafeLogo { width: 190px; }
+    .list-inline { list-style-type: none; margin: 25px 0px; font-size: 16px; }
+    .navbar-nav li a { line-height: 14px; }
+    .home .leftNav li { border-bottom: 1px solid rgb(204, 204, 204); padding: 10px 15px 5px; }
+    .home .leftNav li:hover, .home .leftNav li a:hover { background-color: rgb(240, 240, 240); }
+    .leftNav li:first-of-type { padding-bottom: 5px; }
+    #nav ul ul li { border-top: 0px; margin: 0px; }
+    .navbar-header p { left: 85px; top: 20px; width: 400px; z-index: 5; max-width: none; }
+    ul.col-sm-12 { float: none; }
+    #intro { margin-top: 60px; }
+    #intro .img-fluid { max-width: 100%; height: auto; margin: 0px; }
+    h3 { background: none; padding-top: 0px; }
+    #qualifications h2, #qualifications h3 { text-align: center; }
+    .checklist { padding-left: 30px; }
+    a.login, btn.login { margin-top: 25px; }
+    #fs-footer img { display: inline-block; float: left; }
+    #fs-footer p { padding: 0px 15%; }
+    #contact p strong { display: inline; padding-right: 20px; }
+    .teach .downloads { padding-left: 20px; }
+    .teach .downloads li { border-bottom: 1px solid rgb(195, 216, 45); border-top: 0px; }
+    .recertify-link { width: 50%; }
+  }
+  @media (min-width: 992px) {
+    .list-inline li.certificate { margin-top: 0px; float: right; border-left: 0px; }
+    .swatch { width: 30%; }
+    .certificate-icon { margin-left: 30px; }
+    .downloads li { margin-right: 20px; }
+    .business #secondary { margin-top: 0px; }
+    button.home-action { width: auto; }
+    .marketsafeLogo { width: 250px; }
+    .BlockLogo { position: absolute; right: 0px; top: 145px; }
+    .faq #main p { line-height: 22px; }
+    .recertify-link { width: 40%; }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-4 { width: 50%; }
+  }
+  @media (min-width: 1200px) {
+    .BlockLogo { position: absolute; right: 0px; top: 120px; }
+    .recertify-link { width: 48%; max-width: 580px; }
+  }
+  
