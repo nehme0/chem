@@ -1,5 +1,5 @@
 * {
-  filter: invert(100%);
+   filter: invert(100%);
 }
 body, html { overflow-x: hidden; }
 body.fs { background-color: rgb(255, 255, 255); }
@@ -40,7 +40,7 @@ body.fs { font-family: MyriadPro-Regular, "Myriad Pro Regular", MyriadPro, "Myri
 .home #introBlock { padding-top: 0px; background-repeat: no-repeat; background-size: cover; background-position: -200px -30px; }
 .home #introBlock .container { position: relative; }
 .gradient { padding-top: 20px; background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1) 30%, rgb(255, 255, 255)) center top / cover no-repeat, linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 30%, rgb(255, 255, 255)) left top / cover no-repeat; }
-#intro { margin: 0px -15px; padding: 30px 15px 15px; font-size: 16px; z-index: 1; color: rgb(35, 64, 117); position: relative; background: none; }
+#intro { margin: 0px -15px; padding: 30px 15px 15px; font-size: 16px; z-index: 1; color: rgb(26, 41, 246); position: relative; background: none; }
 #intro p { margin-top: 20px; }
 .faq #intro h2, .resources #intro h2 { margin-top: 20px; padding-top: 0px; }
 .site-info { margin-top: 20px; margin-bottom: 25px; padding-bottom: 20px; background: linear-gradient(to right, rgb(192, 230, 101) 18%, rgba(255, 255, 255, 0) 0%) center bottom / 10px 2px repeat-x; color: rgb(0, 98, 155); font-style: italic; text-align: center; }
@@ -249,7 +249,7 @@ a.microbiology:hover { background-color: rgb(103, 150, 9); }
 #main h2.guide-section { margin: 40px 0px 30px -10px; background: rgb(240, 240, 240); color: rgb(112, 112, 112); padding: 10px; }
 .swatch-list { padding-left: 0px; margin-bottom: 20px; }
 .swatch { list-style-type: none; display: inline-block; width: 100%; margin-bottom: 25px; margin-right: 3%; padding: 20px; }
-.BCblue { color: rgb(255, 255, 255); background-color: rgb(35, 64, 117); }
+.BCblue { color: rgb(255, 255, 255); background-color: rgb(26, 246, 235); }
 .BCyellow { color: rgb(255, 255, 255); background-color: rgb(252, 186, 25); }
 .darkblue { color: rgb(255, 255, 255); background-color: rgb(0, 51, 102); }
 .blue { color: rgb(255, 255, 255); background-color: rgb(0, 97, 154); }
@@ -282,8 +282,8 @@ ul.inline li a:link, nav ul.inline li a:visited { color: rgb(26, 90, 150); displ
 #dilution_table img { float: left; margin-right: 20px; margin-top: 10px; }
 tr { border: none; }
 #field1_help, #field2_help, #field3_help, #field4_help { border: 1px solid rgb(0, 102, 204); border-radius: 5px; color: rgb(0, 102, 204); width: auto; text-align: center; padding: 10px; }
-#dilution_table a i.fa { cursor: pointer; text-decoration: none; color: rgb(0, 102, 204); font-size: 14pt; }
-#dilution_table input[type="submit"], input[type="button"] { background-color: rgb(0, 102, 204); color: rgb(255, 255, 255); border: none; box-shadow: none; border-radius: 5px; padding: 5px 10px; float: right; }
+#dilution_table a i.fa { cursor: pointer; text-decoration: none; color: rgb(26, 246, 235); font-size: 14pt; }
+#dilution_table input[type="submit"], input[type="button"] { background-color: rgb(26, 246, 235); color: rgb(255, 255, 255); border: none; box-shadow: none; border-radius: 5px; padding: 5px 10px; float: right; }
 #disclaimer { float: left; }
 #dilution_table input { margin-right: 5px; }
 #introBlock .marketsafeLogo { max-width: 250px; }
