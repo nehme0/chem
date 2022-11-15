@@ -30,8 +30,8 @@ body, html {
   }
 
 body.fs {
-  background-color: #000;
-}
+  background-color: rgb(0, 0, 0);
+} /* stop making this white*/
 
 /* the gov template removes this padding, which is default in bootstrap - adding it back here for column gutters */
 body.fs [class*='col-'] {
@@ -69,7 +69,7 @@ body.fs {
   margin-top: 10px;
   margin-bottom: 0;
   padding-left: 20px;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #header #logo img {
@@ -80,7 +80,7 @@ body.fs {
 
 #header h1#siteTitle {
   margin: 20px 5px 5px 0;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-size: 28px;
 font-weight: 100 !important;
 }
@@ -145,7 +145,7 @@ custom FOODSAFE menu styles built on top of both bootstrap and the Gov 3 styles 
 
 .leftNav li {
   padding:15px 20px;
-  border-top: 2px solid #000;
+  border-top: 2px solid rgb(255, 255, 255);
   list-style: none;
 }
 
@@ -253,7 +253,7 @@ margin-bottom: 2rem;
 
 .gradient {
   padding-top: 20px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1) 30%, rgba(255, 255, 255, 1)) top center/cover no-repeat, linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 1)) top left/cover no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1) 30%, rgba(255, 255, 255, 1)) top center/cover no-repeat, linear-gradient(to bottom right, rgb(255, 255, 255), rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 1)) top left/cover no-repeat;
 }
 
 #intro {
@@ -301,7 +301,7 @@ margin-bottom: 2rem;
 .tagline {
   position: relative;
   width: 50%;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-style: italic;
   font-size: 16px;
   text-shadow: 1px 1px #707070;
@@ -326,21 +326,21 @@ margin-bottom: 2rem;
 margin-bottom: 90px;
   padding-top: 10px;
   padding-bottom: 5px;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-weight: normal;
   font-size: 28px;
   background-color: #FCBA19;
   width: 230px;
 }
 #introBlock .feature h1 .fa-arrow-right {
-  color: #000;
+  color: rgb(255, 255, 255);
   margin-left: 10px;
 }
 
 .instructors #introBlock h1 {
   font-weight: normal;
   font-size: 36px;
-  color: #000;
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px #707070;
 }
 
@@ -365,7 +365,7 @@ line-height:18px;
   height:100px;
   margin: 40px -15px 0 -15px;
   padding: 35px 20px;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   line-height: 26px;
   font-weight: bold;
@@ -376,7 +376,7 @@ line-height:18px;
 }
 
 .course-title a {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 .level1 h2.course-title {
@@ -605,7 +605,7 @@ ul.body-text li {
   line-height: 55px;
   text-align: center;
   background-color: #00619a;
-  color: #000;
+  color: rgb(255, 255, 255);
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
@@ -724,7 +724,7 @@ a.secondary[href$="pdf"]:before {
 
 .faq #intro ul li {
   padding: 10px 0;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 
@@ -764,7 +764,7 @@ a.secondary[href$="pdf"]:before {
 
 
 #fhContacts ul {
-  background-color: rgba(222,152,40,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 #fhContacts ul li {
@@ -967,7 +967,7 @@ h3 img {
   margin-left: -50px;
   z-index: 10;
   opacity: .5;
-  color: #000;
+  color: rgb(255, 255, 255);
   content: "\f01d";
   font-family: "FontAwesome";
   font-size: 100px;
@@ -980,7 +980,7 @@ display: none;
 
 #videoPreview:hover:before {
   opacity: 0.8;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #videoPreview img {
@@ -993,7 +993,7 @@ display: none;
   position: absolute;
   top: 0;
   left: 0;
-  color: #000;
+  color: rgb(255, 255, 255);
   background-color: rgba(0,51,102, 0.4);
   margin: 0;
   padding: 10px;
@@ -1146,7 +1146,7 @@ a.primary, button[type="submit"] {
   background-color: #00619a;
   border: 1px solid #00619a;
   border-radius: 2px;
-  color: #000;
+  color: rgb(255, 255, 255);
   padding: 7px 10px 5px 10px;
   text-align: center;
   text-decoration: none;
@@ -1162,7 +1162,7 @@ a.processSafe, button[type="submit"] {
   background-color: #fd6601;
   border: 1px solid #e35b00;
   border-radius: 2px;
-  color: #000;
+  color: rgb(255, 255, 255);
   padding: 7px 10px 5px 10px;
   text-align: center;
   text-decoration: none;
@@ -1177,7 +1177,7 @@ a.microbiology, button[type="submit"] {
   background-color: #677533;
   border: 1px solid #677533;
   border-radius: 2px;
-  color: #000;
+  color: rgb(255, 255, 255);
   padding: 7px 10px 5px 10px;
   text-align: center;
   text-decoration: none;
@@ -1202,7 +1202,7 @@ a.microbiology:hover {
 }
 
 .home-action:hover {
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -1245,14 +1245,14 @@ a.microbiology:hover {
 .btn {
   padding: 6px 20px;
   background-color: #00619a;
-  color: #000;
+  color: rgb(255, 255, 255);
   font-family: inherit;
   text-decoration: none;   
 }
 
 .btn:hover {
   text-decoration: none;
-  color: #000;
+  color: rgb(255, 255, 255);
   background-color: #006dae;
 }
 
@@ -1268,7 +1268,7 @@ a.microbiology:hover {
   padding: 3px 8px 3px 8px;
   border-radius: 0;
   color: #003366;
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   }
 
 #header .btn:hover {
@@ -1277,7 +1277,7 @@ a.microbiology:hover {
 
 #user {
   text-align: right;
-  color: #000;
+  color: rgb(255, 255, 255);
   float: right;
   margin-top: 25px;
 }
@@ -1292,7 +1292,7 @@ a.microbiology:hover {
   margin: 0 15px;
   padding: 3px 8px 3px 8px;
   color:  #1a5a96; 
-  background-color: #000;
+  background-color: rgb(255, 255, 255);
   font-size: 13px;
   }
 
@@ -1302,7 +1302,7 @@ FORMS
 */
 
 #login label {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #formSuccess, #formFailure {
@@ -1512,39 +1512,39 @@ padding: 20px;
 }
 
 .BCblue { 
-color: #000; 
+color: rgb(255, 255, 255); 
 background-color: #234075; 
 }
 .BCyellow { 
-color: #000; 
+color: rgb(255, 255, 255); 
 background-color: #fcba19; 
 }
 .darkblue { 
-color: #000; 
+color: rgb(255, 255, 255); 
 background-color:rgb(0, 51, 102); 
 }
 .blue { 
-color: #000; 
+color: rgb(255, 255, 255); 
 background-color: #00619a; 
 }
 .lightblue { 
-color: #000; 
+color: rgb(255, 255, 255); 
 background-color: #5091cd; 
 }
 .green1 { 
-color: #000; 
+color: rgb(255, 255, 255); 
 background-color: #1f9f3b; 
 }
 .green2 { 
-color: #000; 
+color: rgb(255, 255, 255); 
 background-color: #5a9b01; 
 }
 .green3 { 
-color: #000; 
+color: rgb(255, 255, 255); 
 background-color: #c3d82d; 
 }
 .red { 
-color: #000; 
+color: rgb(255, 255, 255); 
 background-color: #961a4d; 
 }
 .grey { 
@@ -1555,7 +1555,7 @@ background-color: #fafafa;
 }
 .Bodygrey { 
 background-color: #494949; 
-color:#000;
+color:rgb(255, 255, 255);
 }
 
 .featureLink > #topicTemplate > .action-block {
@@ -1575,7 +1575,7 @@ text-align:center;
 padding-top:25px;
 }
 #countdownBackground {
-background: #000;
+background: rgb(255, 255, 255);
 filter: alpha(opacity=60);
 /* IE */
 -moz-opacity: 0.6;
@@ -1600,7 +1600,7 @@ margin-left:10px;
 text-align:center;
 font-size:16px;
 clear:both;
-color:black;
+color:rgb(255, 255, 255);
 }
 .timerLabels {
 display:block;
@@ -1618,7 +1618,7 @@ margin-left:15%;
 .clockNumber {
 font-weight:bold;
 background-color:rgb(51,51,51);
-color:#000;
+color:rgb(255, 255, 255);
 padding-left: 10px;
 padding-right: 10px;
 padding-top:10px;
@@ -1662,14 +1662,14 @@ text-decoration:underline;
 padding:15px;
 border-radius:5px;
 background-color: #c3d82d;
-color:#000;
+color:rgb(255, 255, 255);
 float:right;
 clear:right;
 text-align: center;
 font-size:18px;
 }
 .fsWidgetLink a {
-color:#000;
+color:rgb(255, 255, 255);
 text-decoration:none;
 }
 #dilution_table {
