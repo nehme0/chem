@@ -1,7 +1,5 @@
 /* 
-
 CONTENTS
-
 - HEADER
 - NAV
 - MAIN CONTENT
@@ -17,26 +15,15 @@ CONTENTS
 - PRE-FOOTER - FOODSAFE CONTACT AND PARTNERS
 - STYLE GUIDE
 - TEXT
-
-
 COLORS - from BC Gov dev guide (http://www2.gov.bc.ca/gov/content/about-gov-bc-ca/web-presence/developers-guide)
-
 #003366 Header & footer 83% opacity for title bars
-
 #1a5a96 Links and title links
-
 #f2f2f2 Background grey left and right side bars (outside content body)
-
 #fcba19 gold bar under header and above footer
-
 #494949 Site wide text
-
 #00619a FOODSAFE blue
-
 #c3d82d Foodsafe green
-
 #961a4d MarketSafe red
-
 */
 body, html {
   overflow-x:hidden
@@ -1081,7 +1068,6 @@ ul.list-inline > i.fa {
 .five-years {
   position:relative;
 }
-
 .five-years:after {
   content:"5"; 
   font-style: normal;
@@ -1312,9 +1298,7 @@ a.microbiology:hover {
 
 
 /*
-
 FORMS
-
 */
 
 #login label {
@@ -1341,7 +1325,6 @@ FORMS
 }
 
 /*
-
 ALERTS
 modifications to the default bootstrap alert style
 */
@@ -1358,10 +1341,8 @@ modifications to the default bootstrap alert style
 
 
 /*
-
 COLOR CODING
 keeping this all in one place to evaluate which elements are being color coded by course
-
 */
 
 .marketsafe h1 {
@@ -1430,9 +1411,7 @@ keeping this all in one place to evaluate which elements are being color coded b
 
 
 /*
-
 PRE-FOOTER - FOODSAFE CONTACT AND PARTNERS
-
 */
 
 #fs-footer.container {
@@ -1713,9 +1692,9 @@ tr {
  border:none;
 }
 #field1_help, #field2_help, #field3_help, #field4_help {
-border:rgb(0,102,204) solid 1px;
+border:rgb(229, 9, 20) solid 1px;
 border-radius:5px;
-color:rgb(0,102,204);
+color:rgb(229, 9, 20);
 width:auto;
 text-align:center;
 padding:10px;
@@ -1723,12 +1702,12 @@ padding:10px;
 #dilution_table a i.fa {
 cursor:pointer;
 text-decoration: none;
-color:rgb(0,102,204);
+color:rgb(229, 9, 20);
 font-size:14pt;
 }
 #dilution_table input[type="submit"], input[type="button"] {
-background-color:rgb(0,102,204);
-color:#000;
+background-color:rgb(229, 9, 20);
+color:rgb(255, 255, 255);
 border:none;
 box-shadow:none;
 border-radius:5px;
