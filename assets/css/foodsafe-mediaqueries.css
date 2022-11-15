@@ -9,7 +9,7 @@ min-width: 1200px
     color: rgb(229, 9, 20);
   }
   *{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
   }
   @media (max-width: 440px) {
       .list-inline>li {
@@ -95,7 +95,7 @@ min-width: 1200px
       }
       .list-inline li {
           margin-left: 10px;
-          border-left: 1px solid #234075;
+          border-left: 1px solid #ffffff;
           padding-left: 12px;
       }
       
