@@ -6,10 +6,10 @@ min-width: 992px
 min-width: 1200px
 */
 #dilutionCalc {
-    color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
   }
   *{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
   }
   @media (max-width: 440px) {
       .list-inline>li {
@@ -57,7 +57,7 @@ min-width: 1200px
      .cards li {
           display:inline-block;
           width:45%;
-          float: left;
+          float: none;
       }    
       button {
           width: auto;
@@ -320,7 +320,7 @@ min-width: 1200px
       }  
       #fs-footer img {
           display: inline-block;
-          float:left;
+          float:none;
           }
       #fs-footer p {
           padding: 0 15%;
