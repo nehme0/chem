@@ -5,6 +5,9 @@ min-width: 768px
 min-width: 992px
 min-width: 1200px
 */
+.container {
+    margin-top: -85px;
+}
 #dilutionCalc {
     color: rgb(0, 0, 0);
   }
